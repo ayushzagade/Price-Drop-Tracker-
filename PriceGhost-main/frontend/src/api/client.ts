@@ -18,7 +18,7 @@ api.interceptors.request.use((config) => {
   return config;
 });
 
-// Handle auth errors
+// Handles auth errors
 api.interceptors.response.use(
   (response) => response,
   (error) => {
