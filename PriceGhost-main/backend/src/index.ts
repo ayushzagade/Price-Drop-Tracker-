@@ -12,7 +12,7 @@ import notificationRoutes from './routes/notifications';
 import { startScheduler } from './services/scheduler';
 import pool from './config/database';
 
-// Run database migrations
+// Run database migrations to ensure all tables and columns exist
 async function runMigrations() {
   const client = await pool.connect();
   try {
