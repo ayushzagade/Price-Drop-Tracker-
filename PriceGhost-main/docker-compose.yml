@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  # PostgreSQL Database
+  # PostgreSQL Databases
   postgres:
     image: postgres:16-alpine
     container_name: priceghost-db
