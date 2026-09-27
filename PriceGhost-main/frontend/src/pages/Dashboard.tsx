@@ -5,7 +5,7 @@ import ProductForm from '../components/ProductForm';
 import PriceSelectionModal from '../components/PriceSelectionModal';
 import { productsApi, pricesApi, Product, PriceReviewResponse } from '../api/client';
 
-// Type guard to check if response needs review
+// Type guard to check if response needs reviews
 function isPriceReviewResponse(response: Product | PriceReviewResponse): response is PriceReviewResponse {
   return 'needsReview' in response && response.needsReview === true;
 }
