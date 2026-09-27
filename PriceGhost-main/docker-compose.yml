@@ -37,7 +37,7 @@ services:
         condition: service_healthy
     restart: unless-stopped
 
-  # Frontend
+  # Frontend Image
   frontend:
     image: ghcr.io/clucraft/priceghost-frontend:latest
     container_name: priceghost-frontend
