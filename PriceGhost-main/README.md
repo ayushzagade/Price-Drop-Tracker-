@@ -79,7 +79,7 @@ When standard scraping fails to find a price, AI extraction kicks in as a fallba
 ### AI Verification (Recommended)
 Verifies every scraped price to ensure accuracy. This catches issues like accidentally scraping a "savings" amount ($189.99 off) instead of the actual product price ($675.59).
 
-### AI Arbitration
+### AI Arbitration 
 When multiple extraction methods disagree, AI can analyze all candidates and recommend the correct one - which you can then confirm or override in the Price Selection Modal.
 
 **To enable:**
@@ -92,7 +92,7 @@ The cost is minimal (fractions of a cent per API call with Claude Haiku/GPT-4o-m
 
 ---
 
-## Features
+## Features 
 
 ### Multi-Strategy Price Extraction
 - **4 extraction methods** - JSON-LD, site-specific scrapers, generic CSS, and AI work together
@@ -116,7 +116,7 @@ The cost is minimal (fractions of a cent per API call with Claude Haiku/GPT-4o-m
 - **Target price alerts** - Set your ideal price and get notified when reached
 - **Back-in-stock alerts** - Get notified when out-of-stock items become available
 - **Telegram** - Get alerts via Telegram bot
-- **Discord** - Send alerts to any Discord channel via webhooks
+- **Discord servers** - Send alerts to any Discord channel via webhooks
 - **Pushover** - Native Pushover support for mobile push notifications
 - **ntfy.sh** - Simple, no-account push notifications to any device
 - **Gotify** - Self-hosted push notifications via your own Gotify server
