@@ -12,7 +12,7 @@ router.get('/registration-status', async (_req: Request, res: Response) => {
     res.json({ registration_enabled: enabled !== 'false' });
   } catch (error) {
     console.error('Error checking registration status:', error);
-    res.json({ registration_enabled: true }); // Default to true on error
+    res.json({ registration_enabled: true }); // Default to true on errors
   }
 });
 
